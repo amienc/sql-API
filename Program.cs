@@ -1,10 +1,16 @@
 using Microsoft.Data.SqlClient;
 using System.Data;
+using SqlApi.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add SQL connection string
+// The configuration automatically includes user secrets in development
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Replace the placeholder with the actual secret value
+connectionString = connectionString?.Replace("{DbPassword}", 
+    builder.Configuration["DbPassword"]);
+
 
 var app = builder.Build();
 
