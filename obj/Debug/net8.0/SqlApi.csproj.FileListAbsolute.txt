@@ -71,3 +71,4 @@
 /home/amienc/dotnet/SqlApi/obj/Debug/net8.0/SqlApi.pdb
 /home/amienc/dotnet/SqlApi/obj/Debug/net8.0/SqlApi.genruntimeconfig.cache
 /home/amienc/dotnet/SqlApi/obj/Debug/net8.0/ref/SqlApi.dll
+/home/amienc/dotnet/SqlApi/obj/Debug/net8.0/SqlApi.sourcelink.json

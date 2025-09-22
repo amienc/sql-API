@@ -38,4 +38,4 @@ app.MapGet("/customers/{id:int}", async (int id) =>
     return Results.Ok(results);
 });
 
-app.Run();
+await app.RunAsync();
