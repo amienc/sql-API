@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("cda73d4d-8af9-4279-a46d-c68aa81be8fb")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SqlApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+409b4b210f95e84315a6b40dbf274ddbac85cf9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbc1c4b036772989449fabbf683315850e30b6a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("SqlApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SqlApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
