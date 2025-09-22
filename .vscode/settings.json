@@ -1,0 +1,5 @@
+{
+    "dataworkspace.excludedProjects": [
+        "SqlApi_Database/SqlApi_Database.sqlproj"
+    ]
+}
